@@ -1,6 +1,6 @@
 {
-  "version": "5.2.0",
+  "version": "5.3.0",
   "releasedAt": "2026-10-15",
-  "sha256": "8d9056db1f48be7acda31d0d7ea4c7aa12b9f5faba0ffd080f08750c881b81a3",
-  "notes": "- Security hardening: the app window can no longer read files, open arbitrary links or send your Jira token anywhere else\n- Your Jira token is now stored encrypted (Windows DPAPI); you stay logged in\n- Fonts are bundled, so the app no longer loads anything from Google\n- Update dialog shows the SHA-256 of the release zip"
+  "sha256": "f0677f9dd1a051d7e8ccae2aaa65daec3e7ade2dbc783fd9b79b0b802b2066e9",
+  "notes": "- Upgraded to Electron 44: the old version no longer received security updates\n- The app now refuses to start if its files were tampered with\n- Coming from a version older than 5.2? Log in once more with your Jira API token"
 }
