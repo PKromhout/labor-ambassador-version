@@ -1,5 +1,5 @@
 {
   "version": "5.0.0",
   "releasedAt": "2026-10-15",
-  "notes": "- Notifies you when a new version is available"
+  "notes": "- Notifies you when a new version is available\n- Sprint Retro tab in the stats dialog\n- Worked tile shows only non-leave hours"
 }
