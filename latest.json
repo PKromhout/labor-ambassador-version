@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0",
+  "version": "5.0.1",
   "releasedAt": "2026-10-15",
-  "notes": "- Notifies you when a new version is available\n- Sprint Retro tab in the stats dialog\n- Worked tile shows only non-leave hours"
+  "notes": "- Show app usage in an owner-only Usage stats tab\n- Tag worklogs with the app version and add npm run usage\n- Package only en-US and nl Chromium locales\n- Accept \\n escapes in release --notes"
 }
