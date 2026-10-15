@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0",
+  "version": "5.1.1",
   "releasedAt": "2026-10-15",
-  "notes": "- Notifies you when a new version is available\n- Sprint Retro tab in the stats dialog\n- Worked tile shows only non-leave hours"
+  "notes": "- Smaller download: only English and Dutch language packs\n- The launcher now also works from a shortcut\n- Worklogs are tagged with the app version for usage statistics"
 }
