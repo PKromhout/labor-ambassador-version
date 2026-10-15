@@ -1,5 +1,6 @@
 {
-  "version": "5.0.0",
+  "version": "5.2.0",
   "releasedAt": "2026-10-15",
-  "notes": "- Notifies you when a new version is available\n- Sprint Retro tab in the stats dialog\n- Worked tile shows only non-leave hours"
+  "sha256": "8d9056db1f48be7acda31d0d7ea4c7aa12b9f5faba0ffd080f08750c881b81a3",
+  "notes": "- Security hardening: the app window can no longer read files, open arbitrary links or send your Jira token anywhere else\n- Your Jira token is now stored encrypted (Windows DPAPI); you stay logged in\n- Fonts are bundled, so the app no longer loads anything from Google\n- Update dialog shows the SHA-256 of the release zip"
 }
