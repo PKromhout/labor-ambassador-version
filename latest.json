@@ -1,6 +1,6 @@
 {
-  "version": "5.3.0",
-  "releasedAt": "2026-10-15",
-  "sha256": "f0677f9dd1a051d7e8ccae2aaa65daec3e7ade2dbc783fd9b79b0b802b2066e9",
-  "notes": "- Upgraded to Electron 44: the old version no longer received security updates\n- The app now refuses to start if its files were tampered with\n- Coming from a version older than 5.2? Log in once more with your Jira API token"
+  "version": "5.3.1",
+  "releasedAt": "2026-10-26",
+  "sha256": "645048ee21890fb26876b8a1e79877cbaf88cb195719c255447d8881fb91bf89",
+  "notes": "- Logged time now starts when you actually worked it: 10 minutes logged at 09:42 shows as 09:32–09:42 in Jira, and several logs from the same timer follow each other instead of overlapping\n- Ticket keys in window titles are only matched as whole words"
 }
